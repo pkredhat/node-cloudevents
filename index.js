@@ -1,8 +1,8 @@
 
 const app = require('express')();
-const { HTTP } = require("cloudevents");
-const bodyParser = require('body-parser')
-app.use(bodyParser.json())
+const { HTTP } = require('cloudevents');
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
 
 app.post('/', (req, res) => {
   try {
