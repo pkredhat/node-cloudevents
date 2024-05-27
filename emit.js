@@ -6,7 +6,7 @@ function sendWithAxios(message) {
   // and body in this function, then send the
   // event
   axios({
-    method: "post",
+    method: "POST",
     url: "http://localhost:8080",
     data: message.body,
     headers: message.headers,
